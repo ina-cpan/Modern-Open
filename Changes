@@ -1,0 +1,54 @@
+Revision history for this software.
+
+0.09 2019-07-14 00:00:00
+  - fix Extra Issues: has_meta_json
+  - fix Extra Issues: proper_libs
+  - fix Extra Issues: use_warnings
+  - fix Experimental Issues: has_separate_license_file
+  - fix Experimental Issues: meta_yml_has_repository_resource
+  - created by INABA Hitoshi
+
+0.08 2018-08-30 00:00:00
+  - support Perl 5.6 or later too
+  - support autodie always, without Strict::Perl
+  - remove pMakefile.PL
+  - add pmake.bat
+  - remove use Carp
+  - remove use Test::Simply
+  - remove use FileHandle
+  - remove use DirHandle
+  - created by INABA Hitoshi
+
+0.07 2014-06-21 00:00:00
+  - remove exit to PASS test of ActiveState Code
+  - created by INABA Hitoshi
+
+0.06 2014-08-10 00:00:00
+  - prevent from installing on newer perls
+  - rename Test/Simple.pm to Test/Simply.pm
+  - remove strict.pm_, warnings.pm, warnings/register.pm, and feature.pm_
+  - created by INABA Hitoshi
+
+0.05 2014-08-09 00:00:00
+  - add sub warnings::register_categories
+  - fix ABSTRACT
+  - created by INABA Hitoshi
+
+0.04 2014-08-07 00:00:00
+  - fix name of META.yml
+  - support Strict::Perl
+  - created by INABA Hitoshi
+
+0.03 2014-02-09 00:00:00
+  - error at Unknown open() mode
+  - add strict.pm_, feature.pm_
+  - SKIP 009_accept.t on cygwin
+  - created by INABA Hitoshi
+
+0.02 2014-02-03 00:00:00
+  - fix 002_open.t, 004_open.t
+  - created by INABA Hitoshi
+
+0.01 2014-02-02 00:00:00
+  - original version
+  - created by INABA Hitoshi
